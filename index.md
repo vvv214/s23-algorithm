@@ -70,6 +70,7 @@ How can we learn from data collected from individuals while ensuring their priva
 - auditing privacy issues of machine learning 
 
 ## Schedule (tentative, subject to change), we will meet in a hybrid format (both in-person and using zoom)
+
 | Week |       Dates      |                            Monday                            |                            Wednesday                            |
 | :--: | :--------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: |
 |  1   | Aug 22 - Aug 26  |               No Class                                               |                                                                 |
