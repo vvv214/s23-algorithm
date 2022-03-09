@@ -1,59 +1,93 @@
 
-# Data Privacy (Spring 2022)
+# Data Privacy (Fall 2022)
 
 How can we learn from data collected from individuals while ensuring their privacy? The course explores this question, starting from privacy attacks to rigorous state-of-the-art solutions using differential privacy. The class will talk about both theoretical foundations and practical issues in real-world applications. **Prerequisites** include basic knowledge of coding (e.g., Python) and be comfortable reading and writing proofs involving algorithms and probability.
 
 
 - Instructor: [Tianhao Wang](https://tianhao.wang)
-- Location: Rice 032
-- Time: Monday and Wednesday 2:00PM - 3:15PM
-- TA: [Dung Nguyen](https://biocomplexity.virginia.edu/person/dung-nguyen)
-- Discussion: [Piazza](https://piazza.com/virginia/spring2022/cs6501)
+- Location: TBD
+- Time: TBD
+- TA: TBD
+- Discussion: TBD
 - Office Hour
-  - Tianhao: Friday 2:00PM - 3:00PM at [Zoom](https://virginia.zoom.us/j/96963550187?pwd=cld0MWdIcExlQVJXejVHdHZGOEIxQT09) and by appointment
-  - Dung: Thursday 11AM-1PM [Zoom](https://virginia.zoom.us/j/9125586391) and by appointment
+  - Tianhao: TBD and by appointment
+  - TA: TBD and by appointment
 
 ## Format:
-- There are no exams.
 - Each lecture will involve reading one or more papers. Students will also be required to present at least one reading during the semester.
-- Students will be evaluated based on class performance and a research project that they complete individually or in groups of size 2. Projects can focus on developing new theory/algorithms, or on implementing/adapting known algorithms to a real application setting. Details on projects are forthcoming.
+- Students will be evaluated based on class performance and a research project. Projects can focus on developing new theory/algorithms, or on implementing/adapting known algorithms to a real application setting. 
 
 
 
-
-## Grading: 
-- [Paper presentation](papers.md) (20%): During the semester, each student will present a paper for 35 minutes (30min presentation plus 5min Q&A).  If the slides are public or there are videos available online, it is okay to reuse the slides, but make sure you make a high-quality presentation.  Click [here](https://docs.google.com/spreadsheets/d/1GPbWKpnKutALnCCEBFBn1HyshOLH8oInoGSfOl7_p9M/edit?usp=sharing) to register.
-- Paper review (4 * 5% = 20%): Each student is required to write four paper reviews for papers presented in the course.  Click [here](https://docs.google.com/spreadsheets/d/1GPbWKpnKutALnCCEBFBn1HyshOLH8oInoGSfOl7_p9M/edit?usp=sharing) to register.  Submit your paper reviews at: [hotcrp](https://uva-privacycourse22.hotcrp.com/). Please read this [guideline](review.md) before you write a review.  
+## Grading (tentative, subject to change): 
 - Participation (10%): Students are expected to ask/answer questions during the presentation.
-- Two assignments (10%) for theory (proofs) and practice (programming)
-- [Project](project.md) (solo or a group of 2: 40%): Click [here](https://docs.google.com/spreadsheets/d/19W2DKBKuOnUqCAbyxF12cZb0LaURGI93uBb7eGqKe3Y/edit?usp=sharing) to register your team with a tentative title, and submit your final report at [hotcrp](https://uva-privacycourse22-project.hotcrp.com/).  If desired, teams can utilize office hours to get feedbacks on the project.  
+- Two assignments (10%) for theory (proofs) and practice (programming).
+- [Project](project.md) (solo or a group of 2: 40%).  If desired, teams can utilize office hours to get feedbacks on the project. 
+- Midterm (20%) 
+- Final (20%) 
 
-## Schedule (tentative, subject to change), we will meet both in-person and using [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09) 
-- Privacy attacks
-- Introduction to differential privacy
-- Models of differential privacy
-- Paper presentations
+## Topics
+1. privacy attacks
+- reconstruction attacks
+- k-anonymity, l-diversity and t-closeness
+- attacks on k-anonymity, l-diversity and t-closeness
+- privacy attacks to machine learning (prelims of machine learning)
+- specific attacks to nlp
+- membership inference attacks
 
+2. dp
+- dp, basics
+- dp, primitives, advanced composition
+- dp, applications: hierarchical method
+- dp, applications: marginals and generative models (privsyn and privtrace)
+- dp, applications: graph 
+- dp, applications: ml (dpsgd, nlp, fine-tuning)
 
-|  Week   |        Dates          |                                                                 Monday                                                                  |                Wednesday                |
-| :---: |:--------------------:|:---------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------:|
-|  1   | Jan 17 - Jan 21  |                                                                No Class                                                                 | Introduction, Machine Learning Privacy [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09)  |
-|  2   | Jan 24 - Jan 28  | Guest Lecture: Machine Learning meets Security and Privacy: Opportunities and Challenges (by [Jinyuan Jia](https://jjy1994.github.io/)) [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09) | Differential Privacy, Laplace mechanism [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09) |
-|  3   |  Jan 31 - Feb 4  |                                 Exponential mechanism, Report-noisy-max, Sparse vector technique (SVT)  [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09)                                |       Local Differential Privacy  [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09)      |
-|  4   |  Feb 7 - Feb 11  |                                                 Local Differential Privacy  [Zoom](https://virginia.zoom.us/j/99007718089?pwd=c1d2SXVKMUhXZU1DY3h1ZlpQcnVTUT09)                                                  | Guest Lecture: [Bargav Jayaraman](https://bargavjayaraman.github.io/)   |
-|  5   | Feb 14 - Feb 18  |     Graphs with Differential Privacy (by [Dung Nguyen](https://biocomplexity.virginia.edu/person/dung-nguyen))                                                                                                                                   |         Guest Lecture: [Varun Chandrasekaran](https://pages.cs.wisc.edu/~chandrasekaran/)                                |
-|  6   | Feb 21 - Feb 25  |                                                       **(Project Proposal Due)**                                                        |                                         |
-|  7   |  Feb 28 - Mar 4  |                                                                                                                                         |                                         |
-|  8   |  Mar 7 - Mar 11  |                                                              Spring break                                                               |              Spring break               |
-|  9   | Mar 14 - Mar 18  |                                                                                                                                         |                                         |
-|  10   | Mar 21 - Mar 25 |                                                                                                                                         |                                         |
-| 11    | Mar 28 - Apr 1  |                                                    **(Project Progress Report Due)**                                                    |                                         |
-| 12    |  Apr 4 - Apr 8  |                                                                                                                                         |                                         |
-|   13  | Apr 11 - Apr 15 |                                                                                                                                         |                                         |
-|      14 |Apr 18 - Apr 22 |                                                                                                                                         |                                         |
-|      15 |Apr 25 - Apr 29 |                                                                                                                                         |                                         |
-|       16 |May 2 - May 6  |                                                              Last meeting                                                               |                                         |
-|      17 |May 9 - May 12  |                                                        **(Project Report Due)**                                                         |                                         |
+3. other flavors of dp
+- local dp
+- shuffle dp
+- relaxed definition of dp (geo-indistinguishability, event-level, w-window, pufferfish, one-sided dp, label dp)
+- interaction of dp with other domains, such as fairness, usability, explanabilities
+- attacks to dp 
+
+4. privacy-enhancing-technologies
+- secure multi-party computation 1 (prelims of crypto)
+- secure multi-party computation 2 (more on libraries)
+- secure multi-party computation and dp (compare with shuffle dp, honeycrisp, etc)
+- homomorphic encryption (crypte)
+- zero-knowledge proofs
+- encrypted databases
+- oblivious RAM
+- Tor
+- secure hardware
+- quantum computer 
+
+5. privacy-preserving machine learning
+- defenses to ml privacy attacks
+- federated learning
+- mpc machine learning (libraries like aby)
+- machine unlearning
+- auditing privacy issues of machine learning 
+
+## Schedule (tentative, subject to change), we will meet in a hybrid format (both in-person and using zoom)
+| Week |       Dates      |                            Monday                            |                            Wednesday                            |
+| :--: | :--------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: |
+|  1   | Aug 22 - Aug 26  |               No Class                                               |                                                                 |
+|  2   | Aug 29 - Sep 2   |                                                              |                                                                 |
+|  3   | Sep 5 - Sep 9   |                                                              |                                                                 |
+|  4   | Sep 12 - Sep 16   |                                                              |                                                                 |
+|  5   | Sep 19 - Sep 23  |                                                              |                                                                 |
+|  6   | Sep 26 - Sep 30  |                                                              |                                                                 |
+|  7   | Oct 3 - Oct 7   |                                                              |                                                                 |
+|  8   | Oct 10 - Oct 14   |                                                              |                                                                 |
+|  9   | Oct 17 - Oct 21  |                                                              |                                                                 |
+|  10  | Oct 24 - Oct 28  |                                                              |                                                                 |
+|  11  | Oct 31 - Nov 4   |                                                              |                                                                 |
+|  12  | Nov 7 - Nov 11    |                                                              |                                                                 |
+|  13  | Nov 14 - Nov 18  |                                                              |                                                                 |
+|  14  | Nov 21 - Nov 25  |                                                              |          Thanksgiving                                                       |
+|  15  | Nov 28 - Dec 2  |                                                              |                                                                 |
+|  16  | Dec 5 - Dec 9    |             Last Class                                                 |                                                                 |
 
 
 ## More recourses
