@@ -1,12 +1,12 @@
 
 # Data Privacy (Fall 2022)
 
-How can we learn from data collected from individuals while ensuring their privacy? The course explores this question, starting from privacy attacks to rigorous state-of-the-art solutions using differential privacy. The class will talk about both theoretical foundations and practical issues in real-world applications. **Prerequisites** include basic knowledge of coding (e.g., Python) and be comfortable reading and writing proofs involving algorithms and probability.
+Machine learning models are powerful, but do you know they are also vunerable to different attacks?  In this course we will start from privacy attacks to different machine learning models.  We will then talk about defenses such as differential privacy.  Finally we will discuss other privacy enhancing technologies.  While the course is a 4-level course (we will also have semester-long projects), junior students are welcome to take the challenge! Prerequisites only include basic knowledge of coding (Python), algorithms, and probability.
 
 
 - Instructor: [Tianhao Wang](https://tianhao.wang)
-- Location: TBD
-- Time: TBD
+- Location: Mechanical Engr Bldg 341
+- Time: MoWe 3:30pm - 4:45pm
 - TA: TBD
 - Discussion: TBD
 - Office Hour
@@ -20,39 +20,42 @@ How can we learn from data collected from individuals while ensuring their priva
 
 
 ## Grading (tentative, subject to change): 
-- Participation (10%): Students are expected to ask/answer questions during the presentation.
-- Two assignments (10%) for theory (proofs) and practice (programming).
-- [Project](project.md) (solo or a group of 2: 40%).  If desired, teams can utilize office hours to get feedbacks on the project. 
-- Midterm (20%) 
-- Final (20%) 
+- Three assignments (60%, 20% each) on (1) privacy attacks towards machine learning, (2) differential privacy (dp for short), and (3) secure multi-party computation. Theory (proofs) and practice (programming in python) will be covered in each assignment.
+- [Project](project.md) (group of 2: 40%).  Teams can utilize office hours to get feedbacks on the project. 
 
 ## Topics
-1. privacy attacks
-- reconstruction attacks
-- k-anonymity, l-diversity and t-closeness
-- attacks on k-anonymity, l-diversity and t-closeness
-- privacy attacks to machine learning (prelims of machine learning)
-- specific attacks to nlp
-- membership inference attacks
+1. privacy issues in machine learning
+- privacy attacks and basic defenses to deep learning models 
+  - including preliminaries of machine learning, nlp, graph neural networks, GANs, self-supervise learning, and federated learning)
+  - covering membership inference attack, attribute inference attack, property inference attack, reconstruction attack
+- machine unlearning
+- potential privacy risks in model explanation
+- auditing/monitoring privacy issues of machine learning 
 
-2. dp
-- dp, basics
-- dp, primitives, advanced composition
-- dp, applications: hierarchical method
-- dp, applications: marginals and generative models (privsyn and privtrace)
-- dp, applications: graph 
-- dp, applications: ml (dpsgd, nlp, fine-tuning)
+2. differential privacy (dp, the standard way for protecting privacy)
+- earlier works of k-anonymity, l-diversity and t-closeness and their limitations
+- basics of dp (definitions, compositions)
+- primitives for satisfying dp
+  - Laplace mechanism, Exponential mechanism, Report-noisy-max, SVT, Gaussian mechanism
+- advanced composition
+  - strong composition, renyi dp
+- applications: hierarchical method
+- applications: marginals and generative models (privsyn and privtrace)
+- applications: graph 
+- applications: ml (dpsgd, nlp, fine-tuning)
 
 3. other flavors of dp
 - local dp
 - shuffle dp
-- relaxed definition of dp (geo-indistinguishability, event-level, w-window, pufferfish, one-sided dp, label dp)
+- relaxed definition of dp 
+  - geo-indistinguishability, event-level, w-window, pufferfish, one-sided dp, label dp
 - interaction of dp with other domains, such as fairness, usability, explanabilities
-- attacks to dp 
+- safe implementation of dp (and floating-point attacks to dp)
 
-4. privacy-enhancing-technologies
-- secure multi-party computation 1 (prelims of crypto)
-- secure multi-party computation 2 (more on libraries)
+4. privacy enhancing technologies
+- prelims of crypto: encryption, hash, message authentication, public-key encryption
+- secure multi-party computation (including review of some libraries)
+- secure multi-party computation and machine learning (libraries like aby)
 - secure multi-party computation and dp (compare with shuffle dp, honeycrisp, etc)
 - homomorphic encryption (crypte)
 - zero-knowledge proofs
@@ -62,33 +65,26 @@ How can we learn from data collected from individuals while ensuring their priva
 - secure hardware
 - quantum computer 
 
-5. privacy-preserving machine learning
-- defenses to ml privacy attacks
-- federated learning
-- mpc machine learning (libraries like aby)
-- machine unlearning
-- auditing privacy issues of machine learning 
-
 ## Schedule (tentative, subject to change), we will meet in a hybrid format (both in-person and using zoom)
 
 | Week |       Dates      |                            Monday                            |                            Wednesday                            |
 | :--: | :--------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: |
-|  1   | Aug 22 - Aug 26  |               No Class                                               |                                                                 |
+|  1   | Aug 22 - Aug 26  |               No Class                                       |                                                                 |
 |  2   | Aug 29 - Sep 2   |                                                              |                                                                 |
-|  3   | Sep 5 - Sep 9   |                                                              |                                                                 |
-|  4   | Sep 12 - Sep 16   |                                                              |                                                                 |
+|  3   | Sep 5 - Sep 9    |                                                              |                                                                 |
+|  4   | Sep 12 - Sep 16  |                                                              |                                                                 |
 |  5   | Sep 19 - Sep 23  |                                                              |                                                                 |
 |  6   | Sep 26 - Sep 30  |                                                              |                                                                 |
-|  7   | Oct 3 - Oct 7   |                                                              |                                                                 |
-|  8   | Oct 10 - Oct 14   |                                                              |                                                                 |
+|  7   | Oct 3 - Oct 7    |                                                              |                                                                 |
+|  8   | Oct 10 - Oct 14  |                                                              |                                                                 |
 |  9   | Oct 17 - Oct 21  |                                                              |                                                                 |
 |  10  | Oct 24 - Oct 28  |                                                              |                                                                 |
 |  11  | Oct 31 - Nov 4   |                                                              |                                                                 |
-|  12  | Nov 7 - Nov 11    |                                                              |                                                                 |
+|  12  | Nov 7 - Nov 11   |                                                              |                                                                 |
 |  13  | Nov 14 - Nov 18  |                                                              |                                                                 |
-|  14  | Nov 21 - Nov 25  |                                                              |          Thanksgiving                                                       |
-|  15  | Nov 28 - Dec 2  |                                                              |                                                                 |
-|  16  | Dec 5 - Dec 9    |             Last Class                                                 |                                                                 |
+|  14  | Nov 21 - Nov 25  |                                                              |          Thanksgiving                                           |
+|  15  | Nov 28 - Dec 2   |                                                              |                                                                 |
+|  16  | Dec 5 - Dec 9    |             Last Class                                       |                                                                 |
 
 
 ## More recourses
@@ -108,7 +104,7 @@ How can we learn from data collected from individuals while ensuring their priva
 - [Differential Privacy: From Theory to Practice](https://www.morganclaypool.com/doi/pdf/10.2200/S00735ED1V01Y201609SPT018)
 - [The Complexity of Differential Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1_01.pdf)
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://salil.seas.harvard.edu/files/salil/files/differential_privacy_primer_nontechnical_audience.pdf)
-- [Protecting Your Privacy In A Data-driven World](https://www.clairemckaybowen.com/book.html)
+- [Protecting Your Privacy In A Data-driven World](https://www.clairemckaybowen.com/book)
 - [Differential Privacy for Databases](https://dpfordb.github.io/)
 
 
