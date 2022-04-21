@@ -24,7 +24,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 - [Project](project.md) (group of 2: 40%).  Teams can utilize office hours to get feedbacks on the project. 
 
 ## Topics
-1. privacy issues in machine learning
+1. week 1-3: privacy issues in machine learning
 - privacy attacks and basic defenses to deep learning models 
   - including preliminaries of machine learning, nlp, graph neural networks, GANs, self-supervise learning, and federated learning)
   - covering membership inference attack, attribute inference attack, property inference attack, reconstruction attack
@@ -32,7 +32,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 - potential privacy risks in model explanation
 - auditing/monitoring privacy issues of machine learning 
 
-2. differential privacy (dp, the standard way for protecting privacy)
+2. week 4-7: differential privacy (dp, the standard way for protecting privacy)
 - earlier works of k-anonymity, l-diversity and t-closeness and their limitations
 - basics of dp (definitions, compositions)
 - primitives for satisfying dp
@@ -44,7 +44,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 - applications: graph 
 - applications: ml (dpsgd, nlp, fine-tuning)
 
-3. other flavors of dp
+3. week 8-10: other flavors of dp
 - local dp
 - shuffle dp
 - relaxed definition of dp 
@@ -52,7 +52,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 - interaction of dp with other domains, such as fairness, usability, explanabilities
 - safe implementation of dp (and floating-point attacks to dp)
 
-4. privacy enhancing technologies
+4. week 11-14: privacy enhancing technologies
 - prelims of crypto: encryption, hash, message authentication, public-key encryption
 - secure multi-party computation (including review of some libraries)
 - secure multi-party computation and machine learning (libraries like aby)
@@ -90,6 +90,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 ## More recourses
 ### Related courses
 - [Privacy in Statistics and Machine Learning](https://dpcourse.github.io/schedule.html) ([video](https://drive.google.com/drive/folders/1Ds5KlyWrX93DeiQWrFLpBS0Zsk104bnd?usp=sharing)) Spring 2021 by Adam Smith (BU) and Jonathan Ullman (NEU) 
+- [Data Privacy](https://jnear.github.io/cs211-data-privacy/) (mostly differential privacy) Fall 2021 by Joe Near (U of Vermont)
 - [Algorithms for Private Data Analysis](http://www.gautamkamath.com/CS860-fa2020.html) ([video](https://www.youtube.com/playlist?list=PLmd_zeMNzSvRRNpoEWkVo6QY_6rR3SHjp)) Fall 2020 by Gautam Kamath (Waterloo) 
 - [Applied Privacy for Data Science](http://people.seas.harvard.edu/~salil/cs208/spring19/) Spring 2019 by James Honaker and Salil Vadhan (Harvard)
 - [Introduction to Differential Privacy: Theory, Algorithms and Applications](https://sites.cs.ucsb.edu/~yuxiangw/classes/DPCourse-2021Fall/) Fall 2021 by Yuxiang Wang (UCSB)
@@ -102,6 +103,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 ### Books
 - [The Algorithmic Foundations of Differential Privacy](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf)
 - [Differential Privacy: From Theory to Practice](https://www.morganclaypool.com/doi/pdf/10.2200/S00735ED1V01Y201609SPT018)
+- [Programming Differential Privacy](https://programming-dp.com/notebooks/ch3.html)
 - [The Complexity of Differential Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1_01.pdf)
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://salil.seas.harvard.edu/files/salil/files/differential_privacy_primer_nontechnical_audience.pdf)
 - [Protecting Your Privacy In A Data-driven World](https://www.clairemckaybowen.com/book)
