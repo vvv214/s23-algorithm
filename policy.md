@@ -1,4 +1,4 @@
-## Course Policy
+
 ### Academic Integrity
 
 The School of Engineering and Applied Science relies upon and cherishes its community of trust. We firmly endorse, uphold, and embrace the University’s Honor principle that students will not lie, cheat, or steal, nor shall they tolerate those who do. We recognize that even one honor infraction can destroy an exemplary reputation that has taken years to build. Acting in a manner consistent with the principles of honor will benefit every member of the community both while enrolled in the Engineering School and in the future. Students are expected to be familiar with the university [honor code](https://honor.virginia.edu/), including the section on [academic fraud](https://honor.virginia.edu/academic-fraud). 
