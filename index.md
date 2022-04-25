@@ -1,4 +1,7 @@
-
+---
+title: 
+permalink: /
+---
 
 
 Machine learning models are powerful, but do you know they are also vunerable to different attacks?  In this course we will start from privacy attacks to different machine learning models.  We will then talk about defenses such as differential privacy.  Finally we will discuss other privacy enhancing technologies.  While the course is a 4-level course (we will also have a semester-long project and we assume you know basic concepts within computer science), junior students are welcome to take the challenge (we will go slowly and provide references so if you are not familiar with some concepts, you can catch up)! Prerequisites only include basic knowledge of coding (Python), algorithms, and probability.

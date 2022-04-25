@@ -1,3 +1,7 @@
+---
+title: Course Policy
+permalink: /policy/
+---
 
 ### Academic Integrity
 

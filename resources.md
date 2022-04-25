@@ -1,3 +1,8 @@
+---
+title: More Resources
+permalink: /resources/
+---
+
 ### Related courses
 - [Privacy in Statistics and Machine Learning](https://dpcourse.github.io/schedule.html) ([video](https://drive.google.com/drive/folders/1Ds5KlyWrX93DeiQWrFLpBS0Zsk104bnd?usp=sharing)) Spring 2021 by Adam Smith (BU) and Jonathan Ullman (NEU) 
 - [Data Privacy](https://jnear.github.io/cs211-data-privacy/) (mostly differential privacy) Fall 2021 by Joe Near (U of Vermont)
