@@ -1,5 +1,5 @@
 ---
-title: Course Policy
+title: Policy
 permalink: /policy/
 ---
 

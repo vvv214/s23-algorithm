@@ -1,5 +1,5 @@
 ---
-title: More Resources
+title: Resources
 permalink: /resources/
 ---
 
