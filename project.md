@@ -1,7 +1,8 @@
 ---
-title: Project
+title: 
 permalink: /project/
 ---
+
 
 The goal of doing a project in this course is to explore data privacy by yourself and find something that interests you and make you feel really excited to investigate deeper.  During the process, you will learn and practice to do a comprehensive review, plan on your time to finish a project, and write reports.
 
