@@ -1,1 +1,8 @@
 theme: minima
+author:
+  name: Tianhao Wang
+  email: "tianhao@virginia.edu"
+header_pages:
+  - assignments.md
+  - project.md
+  - policy.md
