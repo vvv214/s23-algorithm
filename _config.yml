@@ -1,6 +1,5 @@
 theme: minima
 name: Data Privacy Course (Undergraduate Level), UVA, Fall 2022
-title: null
 author:
   name: Tianhao Wang
   email: "tianhao@virginia.edu"
@@ -8,3 +7,4 @@ header_pages:
   - assignments.md
   - project.md
   - policy.md
+  - resources.md
