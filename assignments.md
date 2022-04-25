@@ -1,5 +1,5 @@
 ---
-title: 
+title: Assignments
 permalink: /assignments/
 ---
 
