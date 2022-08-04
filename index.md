@@ -4,13 +4,13 @@ permalink: /
 ---
 
 
-Machine learning models are powerful, but do you know they are also vunerable to different attacks?  In this course we will start from privacy attacks to different machine learning models.  We will then talk about defenses such as differential privacy.  Finally we will discuss other privacy enhancing technologies.  While the course is a 4-level course (we will also have a semester-long project and we assume you know basic concepts within computer science), junior students are welcome to take the challenge (we will go slowly and provide references so if you are not familiar with some concepts, you can catch up)! Prerequisites only include basic knowledge of coding (Python), algorithms, and probability.
+Machine learning models are powerful, but do you know they are also vulnerable to different attacks?  In this course we will start from privacy attacks to different machine learning models.  We will then talk about defenses such as differential privacy.  Finally we will discuss other privacy enhancing technologies.  While the course is a 4-level course (we will also have a semester-long project and we assume you know basic concepts within computer science), junior students are welcome to take the challenge (we will go slowly and provide references so if you are not familiar with some concepts, you can catch up)! Prerequisites only include basic knowledge of coding (Python), algorithms, and probability.
 
 
 - Instructor: [Tianhao Wang](https://tianhao.wang)
 - Location: Mechanical Engr Bldg 341
 - Time: MoWe 3:30pm - 4:45pm
-- TA: TBD
+- TA: [Dung Nguyen](https://biocomplexity.virginia.edu/person/dung-nguyen) and [Hannah Chen](https://hannahxchen.github.io/)
 - Discussion: TBD
 - Office Hour
   - Tianhao: TBD and by appointment
@@ -32,7 +32,6 @@ Machine learning models are powerful, but do you know they are also vunerable to
   - including preliminaries of machine learning, nlp, graph neural networks, GANs, self-supervise learning, and federated learning)
   - covering membership inference attack, attribute inference attack, property inference attack, reconstruction attack
 - machine unlearning
-- potential privacy risks in model explanation
 - auditing/monitoring privacy issues of machine learning 
 
 2. week 4-7: differential privacy (dp, the standard way for protecting privacy)
@@ -45,7 +44,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 - applications: hierarchical method
 - applications: marginals and generative models (privsyn and privtrace)
 - applications: graph 
-- applications: ml (dpsgd, nlp, fine-tuning)
+- applications: ml (dpsgd)
 
 3. week 8-10: other flavors of dp
 - local dp
@@ -72,10 +71,10 @@ Machine learning models are powerful, but do you know they are also vunerable to
 
 | Week |       Dates      |                            Monday                            |                            Wednesday                            |
 | :--: | :--------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: |
-|  1   | Aug 22 - Aug 26  |               No Class                                       |                                                                 |
-|  2   | Aug 29 - Sep 2   |                                                              |                                                                 |
-|  3   | Sep 5 - Sep 9    |                                                              |                                                                 |
-|  4   | Sep 12 - Sep 16  |                                                              |                                                                 |
+|  1   | Aug 22 - Aug 26  |               No Class                                       |                   Introduction                                  |
+|  2   | Aug 29 - Sep 2   |               ML (Basics, DL)                                               |ML (DL, RNN)                                                                 |
+|  3   | Sep 5 - Sep 9    |ML Attacks                                                              |ML Attacks                                                                 |
+|  4   | Sep 12 - Sep 16  |DP (Motivation, Prior Work)                                                              |DP ()                                                                 |
 |  5   | Sep 19 - Sep 23  |                                                              |                                                                 |
 |  6   | Sep 26 - Sep 30  |                                                              |                                                                 |
 |  7   | Oct 3 - Oct 7    |                                                              |                                                                 |
@@ -85,7 +84,7 @@ Machine learning models are powerful, but do you know they are also vunerable to
 |  11  | Oct 31 - Nov 4   |                                                              |                                                                 |
 |  12  | Nov 7 - Nov 11   |                                                              |                                                                 |
 |  13  | Nov 14 - Nov 18  |                                                              |                                                                 |
-|  14  | Nov 21 - Nov 25  |                                                              |          Thanksgiving                                           |
-|  15  | Nov 28 - Dec 2   |                                                              |                                                                 |
+|  14  | Nov 21 - Nov 25  |             Project Presentation                             |          Thanksgiving                                           |
+|  15  | Nov 28 - Dec 2   |             Project Presentation                             |          Project Presentation                                   |
 |  16  | Dec 5 - Dec 9    |             Last Class                                       |                                                                 |
 
