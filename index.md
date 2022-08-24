@@ -8,13 +8,16 @@ Machine learning models are powerful, but do you know they are also vulnerable t
 
 
 - Instructor: [Tianhao Wang](https://tianhao.wang)
-- Location: Mechanical Engr Bldg 341
+- Location: Mechanical Engr Bldg 341 and [Zoom](https://virginia.zoom.us/j/91717635982?pwd=dVNEaHJ3VjJxaVBFTDRmMUlvU3VDZz09&from=addon) (I will also put recordings to the slack channel after the lectures)
 - Time: MoWe 3:30pm - 4:45pm
 - TA: [Dung Nguyen](https://biocomplexity.virginia.edu/person/dung-nguyen) and [Hannah Chen](https://hannahxchen.github.io/)
-- Discussion: TBD
+- Discussion: 
+  - [Slack](https://fall22dataprivacy.slack.com) - for class communication, discussion, and resource sharing. You can join using your @virginia.edu email address
+  - [Piazza](https://piazza.com/virginia/fall2022/cs4501) - for Q/A (so others can see your question)
 - Office Hour
-  - Tianhao: TBD and by appointment
-  - TA: TBD and by appointment
+  - Dung: Mon 11am-12pm and by appointment
+  - Hannah: Wed 2pm-3pm [Zoom](https://virginia.zoom.us/j/6523934504) and by appointment
+  - Tianhao: Fri 12pm-1pm [Zoom](https://virginia.zoom.us/j/95103321825?pwd=d09vN3lDOEhJaUduWGpocURxem80dz09&from=addon) and by appointment
 
 ## Format:
 - Each lecture will involve reading one or more papers. Students will also be required to present at least one reading during the semester.
@@ -72,7 +75,7 @@ Machine learning models are powerful, but do you know they are also vulnerable t
 | Week |       Dates      |                            Monday                            |                            Wednesday                            |
 | :--: | :--------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: |
 |  1   | Aug 22 - Aug 26  |               No Class                                       |                   Introduction                                  |
-|  2   | Aug 29 - Sep 2   |               ML (Basics, DL)                                               |ML (DL, RNN)                                                                 |
+|  2   | Aug 29 - Sep 2   |               ML (Basics)                                               |ML                                                                  |
 |  3   | Sep 5 - Sep 9    |ML Attacks                                                              |ML Attacks                                                                 |
 |  4   | Sep 12 - Sep 16  |DP (Motivation, Prior Work)                                                              |DP ()                                                                 |
 |  5   | Sep 19 - Sep 23  |                                                              |                                                                 |
