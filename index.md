@@ -15,14 +15,9 @@ Machine learning models are powerful, but do you know they are also vulnerable t
   - [Slack](https://fall22dataprivacy.slack.com) - for class communication, discussion, and resource sharing. You can join using your @virginia.edu email address
   - [Piazza](https://piazza.com/virginia/fall2022/cs4501) - for Q/A (so others can see your question)
 - Office Hour
-  - Dung: Mon 11am-12pm and by appointment
+  - Dung: Mon 11am-12pm [Zoom](https://virginia.zoom.us/j/94028483212?pwd=NkJua3Jybjd2WjQ5cFRRNnJuWVNqUT09) and by appointment
   - Hannah: Wed 2pm-3pm [Zoom](https://virginia.zoom.us/j/6523934504) and by appointment
-  - Tianhao: Fri 12pm-1pm [Zoom](https://virginia.zoom.us/j/95103321825?pwd=d09vN3lDOEhJaUduWGpocURxem80dz09&from=addon) and by appointment
-
-## Format:
-- Each lecture will involve reading one or more papers. Students will also be required to present at least one reading during the semester.
-- Students will be evaluated based on class performance and a research project. Projects can focus on developing new theory/algorithms, or on implementing/adapting known algorithms to a real application setting. 
-
+  - Tianhao: Fri 2pm-3pm [Zoom](https://virginia.zoom.us/j/95103321825?pwd=d09vN3lDOEhJaUduWGpocURxem80dz09&from=addon) and by appointment
 
 
 ## Grading (tentative, subject to change): 
