@@ -79,9 +79,9 @@ Machine learning models are powerful, but do you know they are also vulnerable t
 |  8   | Oct 10 - Oct 14  |  DP ML          |  Local DP  |
 |  9   | Oct 17 - Oct 21  |  LDP            | LDP  |
 |  10  | Oct 24 - Oct 28  |  LDP            | LDP  |
-|  11  | Oct 31 - Nov 4   |  LDP  | Crypto Basics  |
-|  12  | Nov 7 - Nov 11   |  No Class  |  No Class |
-|  13  | Nov 14 - Nov 18  |  MPC  |  Project Presentation  |
+|  11  | Oct 31 - Nov 4   |  LDP            | Crypto Basics  |
+|  12  | Nov 7 - Nov 11   |  No Class       |  No Class |
+|  13  | Nov 14 - Nov 18  |  MPC            |  Project Presentation  |
 |  14  | Nov 21 - Nov 25  |  Project Presentation  |  Thanksgiving  |
 |  15  | Nov 28 - Dec 2   |  Project Presentation  |  Project Presentation  |
 |  16  | Dec 5 - Dec 9    |  Project Presentation  |  No Class  |
