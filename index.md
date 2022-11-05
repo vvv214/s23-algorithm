@@ -69,19 +69,19 @@ Machine learning models are powerful, but do you know they are also vulnerable t
 
 | Week |  Dates  |  Monday   |  Wednesday  |
 | :--: | :-----: | :-------- | :---------: |
-|  1   | Aug 22 - Aug 26  |  No Class  |  Introduction  |
+|  1   | Aug 22 - Aug 26  |  No Class       |  Introduction  |
 |  2   | Aug 29 - Sep 2   |  ML Background  |  ML Background  |
-|  3   | Sep 5 - Sep 9    |  ML Attacks  |  ML Attacks  |
-|  4   | Sep 12 - Sep 16  |  ML Attacks  |  ML Attacks  |
-|  5   | Sep 19 - Sep 23  |  ML Attacks  |  DP Definition |
-|  6   | Sep 26 - Sep 30  |  DP Mechanisms |  DP Applications  |
-|  7   | Oct 3 - Oct 7    |  No Class  |  DP Applications  |
-|  8   | Oct 10 - Oct 14  |  DP ML  |  Local DP  |
-|  9   | Oct 17 - Oct 21  |  Cryptography Background  |  Homomorphic Encryption  |
-|  10  | Oct 24 - Oct 28  |  Zero Knowledge  |  MPC  |
-|  11  | Oct 31 - Nov 4   |  MPC  |  ORAM  |
-|  12  | Nov 7 - Nov 11   |  Searchable Encryption  |  Secure Hardware |
-|  13  | Nov 14 - Nov 18  |  Quantum Computing  |  Project Presentation  |
+|  3   | Sep 5 - Sep 9    |  ML Attacks     |  ML Attacks  |
+|  4   | Sep 12 - Sep 16  |  ML Attacks     |  ML Attacks  |
+|  5   | Sep 19 - Sep 23  |  ML Attacks     |  DP Definition |
+|  6   | Sep 26 - Sep 30  |  DP Mechanisms  |  DP Applications  |
+|  7   | Oct 3 - Oct 7    |  No Class       |  DP Applications  |
+|  8   | Oct 10 - Oct 14  |  DP ML          |  Local DP  |
+|  9   | Oct 17 - Oct 21  |  LDP            | LDP  |
+|  10  | Oct 24 - Oct 28  |  LDP            | LDP  |
+|  11  | Oct 31 - Nov 4   |  LDP  | Crypto Basics  |
+|  12  | Nov 7 - Nov 11   |  No Class  |  No Class |
+|  13  | Nov 14 - Nov 18  |  MPC  |  Project Presentation  |
 |  14  | Nov 21 - Nov 25  |  Project Presentation  |  Thanksgiving  |
 |  15  | Nov 28 - Dec 2   |  Project Presentation  |  Project Presentation  |
 |  16  | Dec 5 - Dec 9    |  Project Presentation  |  No Class  |

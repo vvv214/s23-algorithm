@@ -23,7 +23,7 @@ You are allowed to work individually or form a group of at most two, but keep in
 A good project consists of a good proposal (topic evolves as the project goes on, but the more planning you do at this stage, the better), a comprehensive survey of existing work within the topic, and a complete execution.  At any stage, you are very welcome to send your plan or draft to the instructor or TA for feedbacks to keep yourself on track.  
 
 #### Metric for research projects
-|  |  |
+| Item | Explanation |
 | :--: | :--------------: |
 | Literature review (50%) | You must do a comprehensive literature review of existing solutions. A good approach is to find a good-quality paper[^1] that is very related, and read its related work section. This gives you a good view of work prior to this paper. Then try to see which papers cite this paper from Google scholar. This gives you a good view of work after this paper. Finally, summarize and organize these existing solutions. | 
 | Novelty (10%) | Is your solution a new solution different from existing ones? If you summarize existing work into a taxonomy, where does your proposed solution fit? | 
@@ -33,12 +33,12 @@ A good project consists of a good proposal (topic evolves as the project goes on
 
 [^1]: A good-quality paper is one that is typically published at a top-tier venue (e.g., the ones listed in csrankings.org) or has many citations from Google scholar (e.g., >10 per year after publication), or authored by famous researchers (e.g., >1000 citations) or coming from a good university.
 #### Metric for evaluation projects
-|  |  |
+| Item | Explanation |
 | :--: | :--------------: |
 | Literature review (50%) | Same as before. | 
 | Evaluation (30%) | Summarize existing work into a taxonomy. Where does each solution fit? Also summarize the evaluations from existing papers. Are those evaluations reasonable? If not, try to come up with a more comprehensive evaluation setting. | 
 | Comparison (15%) | A comprehensive comparison over existing solutions. You can use existing code or implement the solutions yourself. Identify the advantages and disadvantages of each solution. | 
-| Analysis (10%) | Why each solution work well in some setting and not that well in other settings? Are there theoretical bounds or empirical insights? |  
+| Analysis (5%) | Why each solution work well in some setting and not that well in other settings? Are there theoretical bounds or empirical insights? |  
 
 ### Some ideas
 
