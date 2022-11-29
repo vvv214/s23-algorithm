@@ -3,6 +3,7 @@ title:
 permalink: /
 ---
 
+Welcome! As the name suggested, in this course, you will learn advanced algorithm design and implementation.
 ## Logistics
 
 
