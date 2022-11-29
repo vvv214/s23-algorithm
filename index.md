@@ -4,84 +4,45 @@ permalink: /
 ---
 
 
-Machine learning models are powerful, but do you know they are also vulnerable to different attacks?  In this course we will start from privacy attacks to different machine learning models.  We will then talk about defenses such as differential privacy.  Finally we will discuss other privacy enhancing technologies.  While the course is a 4-level course (we will also have a semester-long project and we assume you know basic concepts within computer science), junior students are welcome to take the challenge (we will go slowly and provide references so if you are not familiar with some concepts, you can catch up)! Prerequisites only include basic knowledge of coding (Python), algorithms, and probability.
 
 
 - Instructor: [Tianhao Wang](https://tianhao.wang)
-- Location: Mechanical Engr Bldg 341 and [Zoom](https://virginia.zoom.us/j/91717635982?pwd=dVNEaHJ3VjJxaVBFTDRmMUlvU3VDZz09&from=addon) (I will also put recordings to the slack channel after the lectures)
+- Location: Thornton Hall E316
 - Time: MoWe 3:30pm - 4:45pm
-- TA: [Dung Nguyen](https://biocomplexity.virginia.edu/person/dung-nguyen) and [Hannah Chen](https://hannahxchen.github.io/)
+- TA: [Zhifan Lu](https://www.wayup.com/profile/Zhifan-Lu-b7ed044ed7/)
 - Discussion: 
-  - [Slack](https://fall22dataprivacy.slack.com) - for class communication, discussion, and resource sharing. You can join using your @virginia.edu email address
-  - [Piazza](https://piazza.com/virginia/fall2022/cs4501) - for Q/A (so others can see your question)
+  - [Piazza](https://piazza.com/virginia/spring2023/cs6161)
 - Office Hour
-  - Dung: Mon 11am-12pm [Zoom](https://virginia.zoom.us/j/94028483212?pwd=NkJua3Jybjd2WjQ5cFRRNnJuWVNqUT09) and by appointment
-  - Hannah: Wed 2pm-3pm [Zoom](https://virginia.zoom.us/j/6523934504) and by appointment
-  - Tianhao: Fri 2pm-3pm [Zoom](https://virginia.zoom.us/j/95103321825?pwd=d09vN3lDOEhJaUduWGpocURxem80dz09&from=addon) and by appointment
+  - Zhifan: Tu 11am-12pm and Th 11am-12pm [Zoom]() and by appointment
+  - Tianhao: Fri 2pm-3pm Rice 506, [Zoom](https://virginia.zoom.us/j/95103321825?pwd=d09vN3lDOEhJaUduWGpocURxem80dz09&from=addon), and by appointment
 
 
-## Grading (tentative, subject to change): 
-- Three assignments (60%, 20% each) on (1) privacy attacks towards machine learning, (2) differential privacy (dp for short), and (3) secure multi-party computation. Theory (proofs) and practice (programming in python) will be covered in each assignment.
-- [Project](project.md) (group of 2: 40%).  Teams can utilize office hours to get feedbacks on the project. 
+## Grading: 
+- Six weekly/bi-weekly assignments (30%, 5% each)
+- Midterm (30%)
+- Final (40%)
 
-## Topics
-1. week 1-3: privacy issues in machine learning
-- privacy attacks and basic defenses to deep learning models 
-  - including preliminaries of machine learning, nlp, graph neural networks, GANs, self-supervise learning, and federated learning)
-  - covering membership inference attack, attribute inference attack, property inference attack, reconstruction attack
-- machine unlearning
-- auditing/monitoring privacy issues of machine learning 
-
-2. week 4-7: differential privacy (dp, the standard way for protecting privacy)
-- earlier works of k-anonymity, l-diversity and t-closeness and their limitations
-- basics of dp (definitions, compositions)
-- primitives for satisfying dp
-  - Laplace mechanism, Exponential mechanism, Report-noisy-max, SVT, Gaussian mechanism
-- advanced composition
-  - strong composition, renyi dp
-- applications: hierarchical method
-- applications: marginals and generative models (privsyn and privtrace)
-- applications: graph 
-- applications: ml (dpsgd)
-
-3. week 8-10: other flavors of dp
-- local dp
-- shuffle dp
-- relaxed definition of dp 
-  - geo-indistinguishability, event-level, w-window, pufferfish, one-sided dp, label dp
-- interaction of dp with other domains, such as fairness, usability, explanabilities
-- safe implementation of dp (and floating-point attacks to dp)
-
-4. week 11-14: privacy enhancing technologies
-- prelims of crypto: encryption, hash, message authentication, public-key encryption
-- secure multi-party computation (including review of some libraries)
-- secure multi-party computation and machine learning (libraries like aby)
-- secure multi-party computation and dp (compare with shuffle dp, honeycrisp, etc)
-- homomorphic encryption (crypte)
-- zero-knowledge proofs
-- encrypted databases
-- oblivious RAM
-- Tor
-- secure hardware
-- quantum computer 
-
+## Textbook:
+- ***Algorithm design***, J. Kleinberg, E. Tardos
+  - We will follow [slides](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pearson/) of this textbook. You do not need to read/access the book.
+- (Optional) ***Intro to algorithms***, T. Cormen, C.Leiserson, R. Rivest, C. Stein.
 ## Schedule (tentative, subject to change), we will meet in a hybrid format (both in-person and using zoom)
 
 | Week |  Dates  |  Monday   |  Wednesday  |
 | :--: | :-----: | :-------- | :---------: |
-|  1   | Aug 22 - Aug 26  |  No Class       |  Introduction  |
-|  2   | Aug 29 - Sep 2   |  ML Background  |  ML Background  |
-|  3   | Sep 5 - Sep 9    |  ML Attacks     |  ML Attacks  |
-|  4   | Sep 12 - Sep 16  |  ML Attacks     |  ML Attacks  |
-|  5   | Sep 19 - Sep 23  |  ML Attacks     |  DP Definition |
-|  6   | Sep 26 - Sep 30  |  DP Mechanisms  |  DP Applications  |
-|  7   | Oct 3 - Oct 7    |  No Class       |  DP Applications  |
-|  8   | Oct 10 - Oct 14  |  DP ML          |  Local DP  |
-|  9   | Oct 17 - Oct 21  |  LDP            | LDP  |
-|  10  | Oct 24 - Oct 28  |  LDP            | LDP  |
-|  11  | Oct 31 - Nov 4   |  LDP            | Crypto Basics  |
-|  12  | Nov 7 - Nov 11   |  No Class       |  No Class |
-|  13  | Nov 14 - Nov 18  |  MPC            |  Project Presentation  |
-|  14  | Nov 21 - Nov 25  |  Project Presentation  |  Thanksgiving  |
-|  15  | Nov 28 - Dec 2   |  Project Presentation  |  Project Presentation  |
-|  16  | Dec 5 - Dec 9    |  Project Presentation  |  No Class  |
+| 1  | Jan 16 - Jan 20     | No Class.                                                   | Introduction. The stable matching problem.                       |
+| 2  | Jan 23 - Jan 27     | Asymptotic complexity.                                      | Basic graph algorithms                                           |
+| 3  | Jan 30 - Feb 3      | Graph Algorithms Continued                                  | Greedy Algorithms, Shortest Path, Cache Policies                 |
+| 4  | Feb 6 - Feb 10      | Minimum Spanning Tree & Clustering applications             | Divide and conquer. Review recursions. Counting inversions.      |
+| 5  | Feb 13 - Feb 17     | Divide and conquer. Review recursions. Counting inversions. | Order statistics. Closest pair of points. Integer multiplication |
+| 6  | Feb 20 - Feb 24     | Dynamic Programming                                         | Dynamic Programming Continued                                    |
+| 7  | Feb 27 - March 3    | Bellman-Ford                                                | Max-flow, Min cut                                                |
+| 8  | March 6 - March 10  | Spring Break                                                | Spring Break                                                     |
+| 9  | March 13 - March 17 | More Efficient Max-Flow Algorithms.                         | Applications of flow networks                                    |
+| 10 | March 20 - March 24 | Linear Programming and Applications                         | Intractability. Reductions.                                      |
+| 11 | March 27 - March 31 | NP completeness                                             | NP completeness                                                  |
+| 12 | April 3 - April 7   | NP completeness                                             | Dealing with NP completeness.                                    |
+| 13 | April 10 - April 14 | PSPACE games.                                               | Approx algorithms                                                |
+| 14 | April 17 - April 21 | Randomized algorithms, Basic probability.                   | Randomized algorithms, MAX-3SAT, Quicksort                       |
+| 15 | April 24 - April 28 | Approx/randomized algorithms                                | Chernoff bounds applications                                     |
+| 16 | May 1 - May 5       | Review for Final Exam (Last Class)                          |
