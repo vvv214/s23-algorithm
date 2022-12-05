@@ -25,7 +25,7 @@ Welcome! As the name suggested, in this course, you will learn advanced algorith
 
 ## Textbook
 - ***Algorithm design***, J. Kleinberg, E. Tardos
-  - We will follow [slides](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pearson/](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/) of this textbook. You do not need to read/access the book.
+  - We will follow [slides](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/) of this textbook. You do not need to read/access the book.
 - (Optional) ***Intro to algorithms***, T. Cormen, C.Leiserson, R. Rivest, C. Stein.
 
 ## Schedule 
