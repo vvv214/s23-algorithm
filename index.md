@@ -19,7 +19,7 @@ Welcome! As the name suggested, in this course, you will learn advanced algorith
 
 
 ## Grading
-- Six weekly/bi-weekly assignments (30%, 5% each)
+- Six weekly/bi-weekly assignments (30%, 5% each, submit on [Gradescope](https://www.gradescope.com/courses/502627))
 - Midterm (30%)
 - Final (40%)
 
