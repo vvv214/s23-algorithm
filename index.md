@@ -3,7 +3,7 @@ title:
 permalink: /
 ---
 
-Welcome! As the name suggested, in this course, you will learn advanced algorithm design and implementation.
+Welcome! As the name suggested, in this course, you will learn advanced algorithm design and implementation. Please join [Piazza](https://piazza.com/virginia/spring2023/cs6161) and [Gradescope](https://www.gradescope.com/courses/502627).
 ## Logistics
 
 
@@ -33,12 +33,12 @@ Welcome! As the name suggested, in this course, you will learn advanced algorith
 | Week | Dates               | Monday                                                      | Wednesday                                                        |
 | ---- | ------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------- |
 | 1    | Jan 16 - Jan 20     | No Class.                                                   | Introduction. The stable matching problem.                       |
-| 2    | Jan 23 - Jan 27     | Asymptotic complexity.                                      | Basic graph algorithms                                           |
-| 3    | Jan 30 - Feb 3      | Graph Algorithms Continued                                  | Greedy Algorithms, Shortest Path, Cache Policies                 |
-| 4    | Feb 6 - Feb 10      | Minimum Spanning Tree & Clustering applications             | Divide and conquer. Review recursions. Counting inversions.      |
+| 2    | Jan 23 - Jan 27     | Asymptotic complexity.                                      | Basic graph algorithms, Greedy (coin change, interval scheduling)|
+| 3    | Jan 30 - Feb 3      | Greedy (interval partitioning, lateness, Cache Policies)    | Greedy (Dijkstra, MST, Prim, Kruskal, Boruvka...)                |
+| 4    | Feb 6 - Feb 10      | Minimum Spanning Tree & Clustering applications             | TA Office Hour for Homework                                      |
 | 5    | Feb 13 - Feb 17     | Divide and conquer. Review recursions. Counting inversions. | Order statistics. Closest pair of points. Integer multiplication |
 | 6    | Feb 20 - Feb 24     | Dynamic Programming                                         | Dynamic Programming Continued                                    |
-| 7    | Feb 27 - March 3    | Bellman-Ford                                                | Max-flow, Min cut                                                |
+| 7    | Feb 27 - March 3    | Bellman-Ford                                                | Midterm                                                          |
 | 8    | March 6 - March 10  | Spring Break                                                | Spring Break                                                     |
 | 9    | March 13 - March 17 | More Efficient Max-Flow Algorithms.                         | Applications of flow networks                                    |
 | 10   | March 20 - March 24 | Linear Programming and Applications                         | Intractability. Reductions.                                      |
