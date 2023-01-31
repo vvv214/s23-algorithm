@@ -14,12 +14,12 @@ Welcome! As the name suggested, in this course, you will learn advanced algorith
 - Discussion: 
   - [Piazza](https://piazza.com/virginia/spring2023/cs6161)
 - Office Hour
-  - Zhifan: Tu 12pm-1pm and Th 11am-12pm [Zoom]() and by appointment
+  - Zhifan: Tu 12pm-1pm and Th 11am-12pm [Zoom](https://virginia.zoom.us/j/9046535219) and by appointment
   - Tianhao: Fri 2pm-3pm Rice 506, [Zoom](https://virginia.zoom.us/j/99904829105?pwd=T0k3eUpxR0J2WFZsS0VhODBFc0hjdz09), and by appointment
 
 
 ## Grading
-- Six weekly/bi-weekly assignments (30%, 5% each, submit on [Gradescope](https://www.gradescope.com/courses/502627))
+- Six weekly/bi-weekly assignments (30%, 5% each. Submit on [Gradescope](https://www.gradescope.com/courses/502627). You should use the latex template and write on your own.)
 - Midterm (30%)
 - Final (40%)
 
